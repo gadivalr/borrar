@@ -11,6 +11,16 @@
     {% if page.title %}{{ page.title | escape }} - {{ site.title }}{% else %}{{
     site.title | escape }}{% endif %}
   </title>
+  <style>
+    .circular-icon {
+      width: 32px; /* Ajusta el tamaño según tus necesidades */
+      height: 32px; /* Ajusta el tamaño según tus necesidades */
+      border-radius: 50%;
+      background-image: url('/assets/img/ico.png');
+      background-size: cover;
+    }
+  </style>
+  
   <link
     rel="alternate"
     href="{{
@@ -139,16 +149,14 @@
   />
   <link
     rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="/assets/favicons/favicon-32x32.png"
+    href="/assets/img/ico.png"
   />
-  <link
+  <!-- <link
     rel="icon"
     type="image/png"
     sizes="16x16"
     href="/assets/favicons/favicon-16x16.png"
-  />
+  /> -->
   <link rel="manifest" href="/assets/favicons/site.webmanifest" />
   <link
     rel="mask-icon"
