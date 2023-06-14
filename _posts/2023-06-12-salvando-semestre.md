@@ -35,4 +35,5 @@ Los dejo con un hermoso panel de Batman.
 <br>
 <hr>
 ![20230613_012405](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/b4bf211c-8e75-401d-a750-ab812640ccbe)
+<figcaption>Batma</figcaption>
 
