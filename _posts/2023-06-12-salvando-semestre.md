@@ -1,4 +1,4 @@
----
+ ---
 title: Salvando el semestre en una semana (4 días)
 date: 2023-06-12 10:00:00 +07:00
 tags: [blog]
@@ -28,3 +28,8 @@ Espero que esto no me tomé más de 3hrs para poder dormir. El día de mañana t
 <br>
 Mañana actualizaré cómo estuvo la noche.
 <hr>
+### Actualización (Día 2)
+No estudie nada 🙃,  además que no pude ir a la clase de la mañana. La noche anterior no pude descansar nada, tenía un dolor muy fuerte en mis antebrazos pero más en el izquierdo, era un dolor irresistible que hasta pensé en como quitarme el brazo, bueno paso por mi mente. Decidí tomarme un ibuprofeno lo cual fue una buena decisión dado que me alivio un poco el dolor y pude dormir. En resumen hoy no fue un día productivo en el estudio pero aún queda **2 dias**, hay que tener fé hasta el final. 
+<br> 
+Los dejo con un hermoso panel de Batman. <br>
+![20230613_012405](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/9b5d16c0-e0e0-4f38-8b4e-5b5953eefce2)
