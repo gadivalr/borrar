@@ -71,6 +71,8 @@ sass:
 include:
   - _redirects
   - .htaccess
+  - assets/img
+  - .media
 
 exclude:
   - CNAME
