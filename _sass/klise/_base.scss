@@ -245,7 +245,7 @@ a {
   text-decoration:none;
 
   &:hover {
-    color: $text-link-blue;
+    color: $text-link-blue-active; //iconos sm
   }
 
   &:focus {
