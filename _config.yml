@@ -48,6 +48,7 @@ defaults:
       layout: post
       comments: true
 
+media_dir: ".media"
 # Jekyll Compose default front matter
 jekyll_compose:
   post_default_front_matter:
