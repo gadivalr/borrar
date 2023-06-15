@@ -37,3 +37,12 @@ Los dejo con un hermoso panel de Batman.
 ![20230613_012405](https://github.com/gadivalr/gadivalr.github.io/assets/126745302/b4bf211c-8e75-401d-a750-ab812640ccbe)
 <figcaption>Batman</figcaption>
 
+### Día 3
+
+Hoy fue un día normal, me quite un peso de encima con el test de numérico aunque llegué un poco agitado y estresado porque se me había pasado la hora y tuve que irme corriendo, aun asi llegue atrasado, pero salio todo bien. Ahora tengo que estudiar para otro test pero esta vez de Complemento de Cálculo acerca del Teorema de resiuos para calcular integrales trigonométricas y reales usando residuos. Para ser sincero me da una pereza pero tengo que estudiar si o si. he aquí mi plan de estudio para hoy: 
+<br>
+* Repasar bien el teorema de Residuos.
+* Resolver ejercicios de integrales trigonométricas y reales usando residuos del Zill (libro de variable Compleja).
+* Volver a resolver los ejercicios que ya hechos.
+<br>
+Lo más tedioso de residuos es cuando tenemos polos de orden mayor que 2, derivar y factorizar es un dolor de cabeza, no es dificil pero si tedioso a comparación del caso de orden 1.
