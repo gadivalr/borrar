@@ -54,5 +54,5 @@ Hoy es último día antes del certamen, lo bueno es que logré estudiar lo más 
 ### La hora de la verdad
 
 Finalmente ha llegado el día 😬, son las 7 am y tengo el certamen a las 13 hrs, asi que tengo tiempo para un repaso final. Iré a la Cfm a estudiar, encuentro que me concentro más ahí que en la casa, lo más importante es que no me deja procrastinar como que entro en el mood de concentración y estudio. Bueno en la tarde les contaré como me fue. 
-
-
+### Post-Certamen
+Creo que me fue bien, el certamen fue muy parecido al certamen con el que estudie (el del 2022), así que no estaba tan complicado pero considero que fue muy poco tiempo para poder desarrollar bien el certamen, eran 3 preguntas, la 1 era de 3pts y las otras de 1.5 pts c/u. El tiempo para resolver el certamen fue de 1 hora y 30 minutos, desde las 13:15 a las 14:45, digo que fue muy poco tiempo porque para resolver la pregunta 1 que tenia un a y b me tomó más de 1 hora en terminarlo, por lo que para las otras preguntas tuve que intentar responder lo más rápido posible y aun asi no me dió el tiempo para terminarlo completo. Pero con lo que respondí creo que esta todo bueno y me es suficiente para aprobar el ramo, así que ahora solo queda esperar los resultados para poder confirmarlo.
