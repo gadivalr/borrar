@@ -30,7 +30,9 @@ mjx-container[jax="CHTML"][display="true"] {
   display: flex !important;
   text-align: left !important;
 }
-
+mjx-container[jax="SVG"] > svg {
+  width: 100%;
+}
 
 body,
 h1,
