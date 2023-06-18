@@ -4,7 +4,7 @@ date: 2023-06-12 10:00:00 +07:00
 tags: [Blog]
 description: intentaré documentar todo el proceso 
 modified: 2023-06-16
-image: /assets/img/msdd.jpeg
+image: /assets/img/IMG-20230419-WA0000.jpg
 ---
 ### Contexto
 El día viernes tenía exactamente una semana para "salvar el semestre" pero cuando ya estaba dispuesto a estudiar paso algo que cambió mis planes, descubrí  [Jekyll](https://jekyllrb.com/) un **Static Site Generator**
