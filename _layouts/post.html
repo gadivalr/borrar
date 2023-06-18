@@ -46,19 +46,17 @@ layout: compress
           </div>
           {% endif %}
           <h1 class="header-title" itemprop="headline">{{ page.title | escape }}</h1>
-          {% if page.date %}
+         {% if page.date %}
           <div class="post-meta">
             <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
               {{ page.date | date: "%b %d, %Y" }}
             </time>
-            {% if site.read-time %} - {% include read-time.html %}{% endif %}
-            <!-- <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-              <span itemprop="name">{{ site.author.name }}</span>
-            </span> -->
-            <time hidden datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
-              {{ page.date | date: "%b %d, %Y" }}
+            {% if site.read-time %} - {% include read-time.html %}{% endif %} <br>
+            {% if page.modified %}
+            <time style="font-style: italic; font-size: 12px;"  datetime="{{ page.modified | date_to_xmlschema }}" itemprop="dateModified">
+              <p> Last updated on {{ page.modified | date: "%b %d, %Y" }}</p>
             </time>
-            <span hidden itemprop="publisher" itemtype="Person">{{ site.author.name }}</span>
+            {% endif %}
             <span hidden itemprop="image">{{ page.image }}</span>
             <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
           </div>
