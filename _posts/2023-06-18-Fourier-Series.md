@@ -58,9 +58,9 @@ $$
 {% endraw %}
 
 **Solución:**
-Notamos que la función es impar, por lo tanto, la serie de Fourier será de senos. Además, la función es periódica de periodo 2π, por lo tanto, L=π. Calculamos el b_n:
+Notamos que la función es impar, por lo tanto, la serie de Fourier será de senos. Además, la función es periódica de periodo 2π, por lo tanto, L=π. Calulamos el coeficiente b_n. <br>
 
-
+Cálculando el coeficiente b_n de la forma larga(Usando la definición general de coeficiente b_n):
 
 {% raw %}
 $$
@@ -81,6 +81,25 @@ b_n&=\frac{1}{\pi}\int_{-\pi}^{\pi} f(x) \sin(\frac{n\pi x}{\pi}) \, dx\\
 \end{align*}
 $$
 {% endraw %}
+
+Usando la propiedad de paridad de la función seno:
+{% raw %}
+$$
+\begin{align*}
+b_n&=\frac{2}{\pi}\int_{0}^{\pi} f(x) \sin(\frac{n\pi x}{\pi}) \, dx\\
+&=\frac{2}{\pi}\int_{0}^{\pi} (1) \sin(n x) \, dx\\
+&=\frac{2}{\pi}{\Bigl[ -\frac{1}{n}\cos(nx) \Bigr]}_{0}^{\pi}\\
+&=\frac{2}{\pi}\Bigl[ -\frac{1}{n}\cos(n\pi) +\frac{1}{n}\cos(0) \Bigr]\\
+&=\frac{2}{\pi}\Bigl[ -\frac{1}{n}(-1)^{n} +\frac{1}{n} \Bigr]\\
+&=\frac{2}{\pi}\biggl( \frac{1 -(-1)^{n}}{n} \biggr)\\
+&=\frac{2}{\pi}\biggl( \frac{1 +(-1)^{n+1}}{n} \biggr)\\
+\end{align*}
+$$
+{% endraw %}
+
+
+
+
 Por lo tanto, la serie de Fourier de la función es:
 
 
@@ -92,3 +111,12 @@ f(x)&= \frac{2}{\pi}\sum_{n=1}^{+\infty} \quad \biggl( \frac{1 +(-1)^{n+1}}{n} \
 $$
 {% endraw %}
 
+Notamos que con ambos métodos se obtiene el mismo resultado. pero el segundo método es más corto y fácil de calcular usando la propiedad de paridad de la función seno.
+### Recordar: Propiedades de paridad de las funciones seno y coseno
+**Función par:** Una función f(x) es par si f(-x)=f(x) para todo x en el dominio de f(x).<br>
+**Función impar:** Una función f(x) es impar si f(-x)=-f(x) para todo x en el dominio de f(x).<br>
+**Propiedad de paridad de la función seno:** La función seno es una función impar, es decir, sen(-x)=-sen(x) para todo x en el dominio de la función seno.<br>
+**Propiedad de paridad de la función coseno:** La función coseno es una función par, es decir, cos(-x)=cos(x) para todo x en el dominio de la función coseno.<br>
+
+
+ Siempre que estemos trabajando con una función impar, podemos usar la propiedad de paridad de la función seno para calcular el coeficiente b_n del mismo modo cuando tengamos una función par podemos usar la propiedad de paridad de la función coseno para calcular el coeficiente a_n.
