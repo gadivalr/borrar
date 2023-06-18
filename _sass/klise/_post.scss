@@ -7,17 +7,11 @@
 }
   .contenedor {
     width: 100%;
-  
-    //max-width: 600px; /* Definir el ancho máximo que deseas para el div */
-    
-    height: 400px; /* Altura para dispositivos móviles */
-    
-  
+    height: 400px; 
     @include media-query($on-desktop) {
-      height: 300px; /* Altura para pantallas de escritorio */
-    } /* Definir el alto deseado para el div */
-    
-    overflow: hidden; /* Ocultar partes de la imagen que se salgan del contenedor */
+      height: 300px; 
+    } 
+    overflow: hidden; 
   }
   
   .contenedor img {
