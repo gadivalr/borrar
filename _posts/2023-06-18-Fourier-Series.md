@@ -6,7 +6,7 @@ comments: true
 usemathjax: true
 image: /assets/img/R.png
 ---
-### Apuntes series de Fourier real
+### Apuntes serie de Fourier real
 La serie de Fourier sirve para representar una función periódica como una suma infinita de funciones seno y coseno con diferentes frecuencias y amplitudes. Esto permite analizar la función en términos de su espectro de frecuencias, es decir, las componentes armónicas que la forman. La serie de Fourier lleva el nombre del matemático francés Jean-Baptiste Joseph Fourier, quien la descubrió en 1822. 
 
 La serie de Fourier de una función f(x) definida en el intervalo [ -L,L ] es la serie trigonométrica:
