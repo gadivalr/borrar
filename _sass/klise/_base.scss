@@ -20,6 +20,13 @@ html {
   overflow-y: scroll;
   width: 100%;
 }
+.mathjax-container,
+mjx-container[jax="SVG"][display="true"] {
+  display: flex !important;
+  text-align: left !important;
+}
+
+
 
 body,
 h1,
