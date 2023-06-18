@@ -7,8 +7,15 @@
 }
   .contenedor {
     width: 100%;
+  
     //max-width: 600px; /* Definir el ancho máximo que deseas para el div */
-    height: 300px; /* Definir el alto deseado para el div */
+    
+    height: 400px; /* Altura para dispositivos móviles */
+    
+  
+    @include media-query($on-desktop) {
+      height: 300px; /* Altura para pantallas de escritorio */
+    } /* Definir el alto deseado para el div */
     
     overflow: hidden; /* Ocultar partes de la imagen que se salgan del contenedor */
   }
@@ -93,6 +100,10 @@
     max-width: 100%;
     margin-top: 35px;
     margin-bottom: 35px;
+    height: 400px;
+    @include media-query($on-desktop) {
+      height: 300px; /* Altura para pantallas de escritorio */
+    } 
   }
   .centered {
     text-align: center;
