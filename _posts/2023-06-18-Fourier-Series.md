@@ -22,7 +22,7 @@ a_0&=\frac{1}{L}\int_{-L}^{L} f(x) \, dx\\ \quad a_n&=\frac{1}{L}\int_{-L}^{L} f
 $$
 {% endraw %}
 
-**La S.F de una función par en el intervalo [ -L,L ] es la serie de cosenos:**
+**La S.F de una función par en el intervalo [-L,L] es la serie de cosenos:**
 
 
 
@@ -36,7 +36,7 @@ a_0&=\frac{2}{L}\int_{0}^{L} f(x) \, dx\\ \quad a_n&=\frac{2}{L}\int_{0}^{L} f(x
 $$
 {% endraw %}
 
-**La S.F de una función impar en el intervalo [ -L,L ] es la serie de senos:**
+**La S.F de una función impar en el intervalo [-L,L] es la serie de senos:**
 
 {% raw %}
 $$
@@ -111,7 +111,7 @@ f(x)&= \frac{2}{\pi}\sum_{n=1}^{+\infty} \quad \biggl( \frac{1 +(-1)^{n+1}}{n} \
 $$
 {% endraw %}
 
-Notamos que con ambos métodos se obtiene el mismo resultado. pero el segundo método es más corto y fácil de calcular usando la propiedad de paridad de la función seno.
+Notamos que con ambos métodos se obtiene el mismo resultado. pero el segundo método, usando la propiedad de paridad de la función seno es más corto y fácil de calcular.
 ### Recordar: Propiedades de paridad de las funciones seno y coseno
 **Función par:** Una función f(x) es par si f(-x)=f(x) para todo x en el dominio de f(x).<br>
 **Función impar:** Una función f(x) es impar si f(-x)=-f(x) para todo x en el dominio de f(x).<br>
