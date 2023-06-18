@@ -25,7 +25,11 @@ mjx-container[jax="SVG"][display="true"] {
   display: flex !important;
   text-align: left !important;
 }
-
+.mathjax-container,
+mjx-container[jax="CHTML"][display="true"] {
+  display: flex !important;
+  text-align: left !important;
+}
 
 
 body,
