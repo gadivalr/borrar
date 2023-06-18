@@ -57,9 +57,11 @@ layout: compress
               <p> Last updated on {{ page.modified | date: "%b %d, %Y" }}</p>
             </time>
             {% endif %}
+           {% if page.date %}  
             <div class="contenedor">
               <img style="margin-top: 10px ;" src=" {{ page.image }}" alt="img">  
             </div>
+            {% endif %}
           </div>
           {% endif %}
         </header>
