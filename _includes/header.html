@@ -175,24 +175,28 @@
   <link rel="stylesheet" href="/assets/css/style.css" />
 
   <!-- for mathjax support -->
-    {% if page.usemathjax %}
+{% if page.usemathjax %}
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
-      TeX: { equationNumbers: { autoNumber: "AMS" } }
-      
+      jax: ["input/TeX", "output/SVG"],
+      TeX: { equationNumbers: { autoNumber: "AMS" } },
+      SVG: {
+        scale: 100,
+        font: "TeX",
+        undefinedFamily: "STIXGeneral, 'Arial Unicode MS', serif"
+      }
     });
   </script>
-  
 
-<script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg-full.js"></script>
 
   <style>
-    .mathjax-display {
+    .mjx-svg-display {
       display: flex !important;
       text-align: left !important;
-}
-    
+    }
   </style>
-  {% endif %}
+{% endif %}
+
     
 </head>
