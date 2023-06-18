@@ -57,8 +57,9 @@ layout: compress
               <p> Last updated on {{ page.modified | date: "%b %d, %Y" }}</p>
             </time>
             {% endif %}
-            <span hidden itemprop="image">{{ page.image }}</span>
-            <span hidden itemprop="mainEntityOfPage">{{ page.excerpt }}</span>
+            <div class="contenedor">
+              <img style="margin-top: 10px ;" src=" {{ page.image }}" alt="img">  
+            </div>
           </div>
           {% endif %}
         </header>
