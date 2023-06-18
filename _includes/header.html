@@ -179,7 +179,10 @@
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       jax: ["input/TeX", "output/SVG"],
-      TeX: { equationNumbers: { autoNumber: "AMS" } },
+      TeX: {
+        equationNumbers: { autoNumber: "AMS" },
+        extensions: ["mathtools.js"]
+      },  
       SVG: {
         scale: 100,
         font: "TeX",
