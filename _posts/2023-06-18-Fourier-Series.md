@@ -22,7 +22,7 @@ a_0&=\frac{1}{L}\int_{-L}^{L} f(x) \, dx\\ \quad a_n&=\frac{1}{L}\int_{-L}^{L} f
 $$
 {% endraw %}
 
-La S.F de una función par en el intervalo [ -L,L ] es la serie de cosenos:
+* La S.F de una función par en el intervalo [ -L,L ] es la **serie de cosenos**:
 
 
 
@@ -36,7 +36,7 @@ a_0&=\frac{2}{L}\int_{0}^{L} f(x) \, dx\\ \quad a_n&=\frac{2}{L}\int_{0}^{L} f(x
 $$
 {% endraw %}
 
-La S.F de una función impar en el intervalo [ -L,L ] es la serie de senos:
+* La S.F de una función impar en el intervalo [ -L,L ] es la **serie de senos**:
 
 {% raw %}
 $$
