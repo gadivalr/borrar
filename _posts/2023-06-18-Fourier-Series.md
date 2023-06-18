@@ -6,8 +6,8 @@ comments: true
 usemathjax: true
 image: /assets/img/R.png
 ---
-### Apuntes representación de funciones mediante series de Fourier real
-a serie de Fourier sirve para representar una función periódica como una suma infinita de funciones seno y coseno con diferentes frecuencias y amplitudes. Esto permite analizar la función en términos de su espectro de frecuencias, es decir, las componentes armónicas que la forman. La serie de Fourier lleva el nombre del matemático francés Jean-Baptiste Joseph Fourier, quien la descubrió en 1822. 
+### Apunte series de Fourier real
+La serie de Fourier sirve para representar una función periódica como una suma infinita de funciones seno y coseno con diferentes frecuencias y amplitudes. Esto permite analizar la función en términos de su espectro de frecuencias, es decir, las componentes armónicas que la forman. La serie de Fourier lleva el nombre del matemático francés Jean-Baptiste Joseph Fourier, quien la descubrió en 1822. 
 
 La serie de Fourier de una función f(x) definida en el intervalo [ -L,L ] es la serie trigonométrica:
 {% raw %}
@@ -22,7 +22,7 @@ a_0&=\frac{1}{L}\int_{-L}^{L} f(x) \, dx\\ \quad a_n&=\frac{1}{L}\int_{-L}^{L} f
 $$
 {% endraw %}
 
-* La S.F de una función par en el intervalo [ -L,L ] es la **serie de cosenos**:
+**La S.F de una función par en el intervalo [ -L,L ] es la serie de cosenos:**
 
 
 
@@ -36,7 +36,7 @@ a_0&=\frac{2}{L}\int_{0}^{L} f(x) \, dx\\ \quad a_n&=\frac{2}{L}\int_{0}^{L} f(x
 $$
 {% endraw %}
 
-* La S.F de una función impar en el intervalo [ -L,L ] es la **serie de senos**:
+**La S.F de una función impar en el intervalo [ -L,L ] es la serie de senos:**
 
 {% raw %}
 $$
@@ -46,7 +46,7 @@ $$
 \end{align*}
 $$
 {% endraw %}
-Ejemplo: Hallar la S. F de la función:
+**Ejemplo: Hallar la S. F de la función:**
 
 
 {% raw %}
@@ -57,7 +57,7 @@ f(x)&=\begin{cases} -1 & \text{si } -\pi<x<0 \\ \quad1 & \text{si } 0<x<\pi \end
 $$
 {% endraw %}
 
-Solución:
+**Solución:**
 Notamos que la función es impar, por lo tanto, la serie de Fourier será de senos. Además, la función es periódica de periodo 2π, por lo tanto, L=π. Calculamos el b_n:
 
 
