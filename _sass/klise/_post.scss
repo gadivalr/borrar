@@ -5,6 +5,20 @@
     padding-right: $spacing-half;
   }
 }
+  .contenedor {
+    width: 100%;
+    //max-width: 600px; /* Definir el ancho máximo que deseas para el div */
+    height: 300px; /* Definir el alto deseado para el div */
+    
+    overflow: hidden; /* Ocultar partes de la imagen que se salgan del contenedor */
+  }
+  
+  .contenedor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajustar la imagen para llenar el contenedor sin distorsionarla */
+  }
+  
 
 // Post title
 .header {
