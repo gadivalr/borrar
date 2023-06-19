@@ -58,9 +58,9 @@ $$
 {% endraw %}
 
 **Solución:**
-Notamos que la función es impar, por lo tanto, la serie de Fourier será de senos. Además, la función es periódica de periodo 2π, por lo tanto, L=π. Calulamos el coeficiente b_n. <br>
+Notamos que la función es impar, por lo tanto, la serie de Fourier será de senos. Además, la función es periódica de periodo 2π, por lo tanto, L=π. <br>
 
-Cálculando el coeficiente b_n de la forma larga (Usando la definición general de coeficiente b_n):
+Cálculamos el coeficiente b_n de la forma larga (Usando la definición general de coeficiente b_n) :
 
 {% raw %}
 $$
