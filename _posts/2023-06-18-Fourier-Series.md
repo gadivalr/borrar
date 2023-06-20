@@ -2,6 +2,7 @@
 title: Serie de Fourier 
 date: 2023-06-18
 layout: post
+tags: [Fourier]
 comments: true
 usemathjax: true
 image: /assets/img/R.jpg
