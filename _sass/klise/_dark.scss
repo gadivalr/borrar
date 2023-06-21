@@ -171,7 +171,7 @@ body[data-theme="dark"] {
 
     .post-item-date {
       color: $dark-white;
-      white-space: nowrap;
+      flex-shrink: 0;
     }
     .post-item-title {
       a {
