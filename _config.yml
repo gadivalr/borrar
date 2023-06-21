@@ -4,7 +4,7 @@ description: A Person who develops software with coffee # site description
 
 lang: es-MX # default lang
 timezone: Asia/Jakarta # set your timezone
-image: assets/img/ms.jpeg # This image used for Open Graph more info https://ogp.me/
+image: assets/img/ava.jpg # This image used for Open Graph more info https://ogp.me/
 repo: https://github.com/piharpi/jekyll-klise # site repo [optional]
 mode: dark # default theme "dark" | "light"
 
