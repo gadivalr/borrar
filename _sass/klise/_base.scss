@@ -57,6 +57,12 @@ figure {
   color: #0d122b;
 }
 // Basic styling
+@font-face {
+  font-family: 'Roboto';
+  src: url('/assets/fonts/KFOmCnqEu92Fr1Mu4mxK.woff2') format('woff2');
+  font-display: swap;
+}
+
 body {
   min-height: 100vh;
   overflow-x: hidden;
