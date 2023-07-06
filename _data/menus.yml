@@ -10,10 +10,13 @@
   url: /about/
   external: false # set true if you using external link, see below
 
-- title: Tags
-  url: /tags/
-  external: false # set true if you using external link, see below
+#- title: Tags
+#  url: /tags/
+#  external: false # set true if you using external link, see below
 
+- title: Dibujos
+  url: /dibujo/
+  external: false # set true if you using external link, see below
 # Example:
 # - title: github
 #   url: https://github.com/piharpi/jekyll-klise
