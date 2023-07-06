@@ -210,6 +210,21 @@
   .post-cards {
     grid-template-columns: 1fr;
   }
+  .post-card {
+    margin-bottom: 20px; /* Agregamos margen inferior para separar las tarjetas en modo móvil */
+  }
+  
+  .post-card:after {
+    content: '';
+    display: block;
+    border-top: 1px solid #6b7886; /* Establece el estilo y color deseado para la línea */
+    margin: 20px 0; /* Ajusta el espacio vertical deseado entre las tarjetas */
+    margin-bottom: 0;
+  }
+  
+  .post-card:last-child:after {
+    display: none; /* Oculta la línea después de la última tarjeta */
+  }
 }
 
 .post-image {
