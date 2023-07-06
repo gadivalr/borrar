@@ -198,11 +198,11 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  margin-bottom: 10px;
 }
 
 
 .post-date{
-  font-weight: 700;
   font-size: 13px;
 }
 
@@ -225,7 +225,27 @@
   transform: scale(1.03);
 }
 
-
+.post-card .author-info  {
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  gap: 3px;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.author-image {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  
+}
+.author-name {
+  font-size: 10px; /* Ajusta el tamaño deseado para el nombre del autor */
+  margin-top: 5px;
+}
+.post-card{
+  margin-bottom: 15px;
+}
 // Author
 .author {
   margin-top: 8.3rem;
