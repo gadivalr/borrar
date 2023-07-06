@@ -217,7 +217,7 @@
   .post-card:after {
     content: '';
     display: block;
-    border-top: 1px ; /* Establece el estilo y color deseado para la línea */
+    border-top: 1px; /* Establece el estilo y color deseado para la línea */
     margin: 20px 0; /* Ajusta el espacio vertical deseado entre las tarjetas */
     margin-bottom: 0;
   }
@@ -247,6 +247,7 @@
   position: relative;
   padding-top: 10px;
   padding-bottom: 5px;
+  align-items: center;
 }
 .author-image {
   width: 20px;

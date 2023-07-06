@@ -243,6 +243,7 @@ h6 {
 
   @include media-query($on-mobile) {
     scroll-margin-top: 65px;
+    font-size: 18px;
   }
 }
 
