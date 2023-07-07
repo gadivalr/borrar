@@ -3,10 +3,12 @@
     text-align:center;
     line-height:0;
     position:absolute;
-    left:0
+    left:0;
+    height: 100vh;
 }
 body.lb-disable-scrolling{
     overflow:hidden
+
 }
 .lightboxOverlay{
     position:absolute;
@@ -16,7 +18,8 @@ body.lb-disable-scrolling{
     background-color:#000;
     filter:alpha(Opacity=80);
     opacity:.8;
-    display:none
+    display:none;
+    height: 100vh;
 }
 .lightbox{
     width:100%;
@@ -24,6 +27,7 @@ body.lb-disable-scrolling{
     font-weight:400;
     outline:0;
     margin-top: 30px;
+    height: 100vh;
 }
     .lightbox .lb-image{
         display:block;
@@ -98,7 +102,7 @@ body.lb-disable-scrolling{
             opacity:1;
         }
         .lb-nav a.lb-next{
-            width:64%;
+            width:34%;
             right:0;
             float:right;
             background:url(../images/next.png) right 48% no-repeat;
@@ -129,9 +133,9 @@ body.lb-disable-scrolling{
             color:#ccc
         }
             .lb-data .lb-details{
-                width:85%;
+                width:100%;
                 float:left;
-                text-align:left;
+                text-align:center;
                 line-height:1.1em
             }
             .lb-data .lb-caption{
@@ -142,7 +146,7 @@ body.lb-disable-scrolling{
                     color:#4ae
                 }
                 .lb-data .lb-number{
-                    display:block;
+                    display:none;
                     clear:left;
                     padding-bottom:1em;
                     font-size:12px;
