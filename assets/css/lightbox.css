@@ -202,3 +202,17 @@ body.lb-disable-scrolling {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
 }
+.lb-like {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.lb-like i {
+  color: red;
+  margin-right: 5px;
+}
+
+.lb-like-counter {
+  font-weight: bold;
+}
+

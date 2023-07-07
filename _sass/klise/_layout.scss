@@ -289,6 +289,32 @@
 .post-card{
   margin-bottom: 15px;
 }
+
+.lb-like {
+  float: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.lb-like i {
+  color: red;
+  margin-right: 5px;
+}
+
+.lb-like-counter {
+  font-weight: bold;
+}
+
+.lb-like .fa,
+.lb-like .fas {
+  font-weight: 100;
+}
+.lb-like .fa.active,
+.lb-like .fas.active {
+  font-weight: 900;
+}
+
+
 // Author
 .author {
   margin-top: 8.3rem;
