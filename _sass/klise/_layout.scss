@@ -217,9 +217,10 @@
 
 .grid-item img {
   max-width: 100%;
-  height: auto;
+  height: 300px;
   cursor: pointer;
   border-radius: 5px;
+  object-fit: cover;
 }
 .post-cards {
   display: grid;
